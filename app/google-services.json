@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "86205391475",
+    "firebase_url": "https://yona-75b8b.firebaseio.com",
+    "project_id": "yona-75b8b",
+    "storage_bucket": "yona-75b8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86205391475:android:a2a48a22a4cd0100",
+        "android_client_info": {
+          "package_name": "com.example.a91755.yonachatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86205391475-v8sid7udm9of18p5tlcebk5i7nikb4lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYrDJW9mK5I5xdCqs4wbAA53YYN2CoJ98"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

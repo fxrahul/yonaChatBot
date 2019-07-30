@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a91755.yonachatbot">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChatBotColor1" />
+        <activity android:name=".PostStudentGeneralDetails" />
+        <activity android:name=".PostMarks" >
+
+        </activity>
+        <activity android:name=".PostAddAttendance" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".AdminDashboardActivity" >
+
+        </activity>
+        <activity android:name=".UserLoginActivity" />
+        <activity android:name=".UserRegisterActivity" />
+        <activity android:name=".MainscreenActivity">
+
+        </activity>
+        <activity android:name=".BeforeAdminLoginActivity" />
+        <activity android:name=".ChatBot" />
+        <activity android:name=".AddAttendance" />
+        <activity android:name=".StudentGeneralDetails" />
+        <activity android:name=".AddMarks" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UnknownList" />
+    </application>
+
+</manifest>

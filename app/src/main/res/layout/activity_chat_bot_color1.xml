@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_copy"
+    tools:context=".ChatBotColor1">
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/conversation"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:layout_marginBottom="60dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:textColor="#FFFFFF"
+        android:gravity="right"
+        android:textSize="15dp"
+        android:id="@+id/logout"
+
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:id="@+id/change_theme"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="100dp"
+        android:text="Change to Default Theme"/>
+
+    <RelativeLayout
+        android:id="@+id/relate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+        <EditText
+            android:id="@+id/userInput"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+
+            android:background="@drawable/bg_edit_text"
+            android:fontFamily="@font/montserrat"
+            android:hint="Ask me"
+            android:inputType="text"
+            android:textColor="#ffffff"
+            android:padding="12dp"
+            android:imeActionId="4"
+            android:imeOptions="actionSend"
+            android:textColorHint="#fff"
+            android:textSize="20sp"/>
+
+        <ImageButton
+            android:id="@+id/btnSpeak"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:src="@drawable/mic_icon"
+            android:layout_alignRight="@+id/userInput"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
+
